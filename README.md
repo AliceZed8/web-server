@@ -1,5 +1,7 @@
 # Web-Server
+
 **Цель:** разработка https-сервера и динамического веб-сайта с использованием языка C++.
+
 **Языки и инструменты:**
 <div>
 <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="30" height="30"/>&nbsp;
@@ -23,6 +25,8 @@ flowchart TD
 ## Установка
 ### Windows
 **MinGW Compiler**
+
 **DevKit [gcc-w64devkit-mingw](https://github.com/skeeto/w64devkit/releases)**
+
 **Compile:** `g++ -std=c++20 main.cpp -o main.exe -lWs2_32`
 
