@@ -3,11 +3,9 @@
 #include <string>
 #include "include/httplib.h"
 #include <format>
-#include <winsqlite/winsqlite3.h>
-
 
 namespace Logger {
-	static void Log(const std::string& msg) {
+	void Log(const std::string& msg) {
 		printf("[SERVER] %s\n", msg.c_str());
 	}
 }
