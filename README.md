@@ -24,9 +24,18 @@ flowchart TD
 ```
 ## Установка
 ### Windows
-**MinGW Compiler**
+#### MinGW Compiler
 
-**DevKit [gcc-w64devkit-mingw](https://github.com/skeeto/w64devkit/releases)**
+Для компиляции использовался **[gcc-w64devkit-mingw](https://github.com/skeeto/w64devkit/releases)**<br>
+**Example:**` g++ -std=c++20 main.cpp -o main.exe -lWs2_32`
 
-**Compile:** `g++ -std=c++20 main.cpp -o main.exe -lWs2_32`
+#### MSVC
+
+**Example:**<br>
+```
+git clone https://github.com/AliceZed8/web-server.git
+cd web-server
+cmake .
+```
+<br>
 
