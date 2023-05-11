@@ -17,7 +17,6 @@ private:
 	std::string m_host;
 	int m_port;
 
-
     static std::string readSite(const std::string & page_name) {
 		std::stringstream s;
 		std::string ss;

@@ -1,8 +1,7 @@
 # Web-Server
 
-**Цель:** разработка https-сервера и динамического веб-сайта с использованием языка C++.
-
-**Языки и инструменты:**
+**Цель:** разработка https-сервера и динамического веб-сайта с использованием языка C++.<br>
+**Языки:**
 <div>
 <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="30" height="30"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="30" height="30"/>&nbsp;
@@ -22,14 +21,15 @@ flowchart TD
     WebSite <--> API
     WebSite <--> WebServer([Веб-сервер]) 
 ```
+
 ## Установка
 ### Windows
 #### MinGW Compiler
 
 Для компиляции использовался **[gcc-w64devkit-mingw](https://github.com/skeeto/w64devkit/releases)**<br>
-**Example:**` g++ -std=c++20 main.cpp -o main.exe -lWs2_32`
+**Example:** `g++ -std=c++20 main.cpp -o main.exe -lWs2_32`
 
-#### MSVC
+#### Visual Studio
 
 **Example:**<br>
 ```
